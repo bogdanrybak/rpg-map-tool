@@ -1,0 +1,29 @@
+#map {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+}
+
+#map img {
+	
+}
+
+#map .map-container {
+	width: 100%;
+}
+
+#map button {
+	position: relative;
+	z-index: 100;
+}
+
+.player-marker {
+	z-index: 100;
+	display: block;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: red;
+	left: 0;
+	right: 0;
+}
